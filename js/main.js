@@ -1,3 +1,4 @@
 import { createGallery } from './data';
+import { renderThumbnails } from './render-thumbnail';
 
-createGallery();
+renderThumbnails(createGallery());
